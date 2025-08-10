@@ -54,7 +54,3 @@ The dataset should contain the following columns:
 - ph: Soil pH
 - rainfall: Rainfall in mm
 - label: Crop label/name (target)
-
-## Contact
-
-For questions or support, please open an issue or contact the maintainer.
