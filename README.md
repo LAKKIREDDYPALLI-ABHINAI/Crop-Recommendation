@@ -22,24 +22,24 @@ This project implements a crop recommendation system using machine learning and 
 
 1. Clone or download this repository.
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Place your dataset CSV file inside the `data/` folder as `Crop_recommendation.csv`.
+4. Place your dataset CSV file inside the `data/` folder as `Crop_recommendation.csv`.
 
-4. Train the model:
+5. Train the model:
    ```bash
    python main.py train
    ```
 
-5. Perform EDA:
+6. Perform EDA:
    ```bash
    python main.py eda
    ```
 
-6. Launch the Streamlit app:
+7. Launch the Streamlit app:
    ```bash
    streamlit run app.py
    ```
@@ -58,10 +58,3 @@ The dataset should contain the following columns:
 ## Contact
 
 For questions or support, please open an issue or contact the maintainer.
-
-
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python main.py train
-streamlit run app.py
